@@ -1,0 +1,45 @@
+body {
+    background-color: #fdffd4;
+}
+
+.block {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.sensor-block {
+    padding: 5px;
+    background-color: rgba(159, 178, 119, 0.4);
+    border-radius: 5px;
+    border: black 1px;
+    height: 200px;
+    width: 87%;
+    /*margin: 30px;*/
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sensor-name {
+    width: 100%;
+    height: 50px;
+
+}
+
+.sensor-values {
+    width: 100%;
+    height: 100px;
+}
+
+.sensor-values {
+    width: 100%;
+    height: 50%;
+}
